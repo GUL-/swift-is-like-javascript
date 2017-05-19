@@ -1,5 +1,5 @@
 #!/usr/bin/env coffee
-project = 'swift-is-like-kotlin'
+project = 'swift-is-like-javascript'
 
 require 'shelljs/make'
 path = require 'path'

@@ -11,16 +11,16 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem/swift-is-like-kotlin
-      img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
+      :href https://github.com/GUL-/swift-is-like-javascript
+      img#fork-me (:src http://gul-.github.io/swift-is-like-javascript/fork-me.png)
     #note
-      = "Swift is like Kotlin"
+      = "Swift is like JavaScript"
 
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/hello-world.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/hello-world.kt)
+        .card (.lang Javascript) $ pre.code $ code (@insert ../code/hello-world.kt)
       .case (.name "Variables And Constants") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/variables-and-constants.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variables-and-constants.kt)
